@@ -1,7 +1,7 @@
 <template>
     <div class="black-bg" v-if="모달창열렸니">
         <div class="white-bg" >
-            <img :src="oneroom[데이터정보].image" alt="">
+            <img :src="oneroom[데이터정보].image" :alt="oneroom[데이터정보].title">
             <h4>{{oneroom[데이터정보].title}}</h4>
             <p>{{oneroom[데이터정보].content}}</p>
             <!-- <input type="number" :value="month" @input="month = $event.target.value"> -->
